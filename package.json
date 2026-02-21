@@ -1,0 +1,21 @@
+{
+    "name": "focused-in-the-dark",
+    "displayName": "Focused in the dark",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.109.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Focused in the dark",
+                "uiTheme": "hc-black",
+                "path": "./themes/focused-in-the-dark-color-theme.json"
+            }
+        ]
+    }
+}
