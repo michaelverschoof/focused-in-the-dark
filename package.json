@@ -1,7 +1,7 @@
 {
     "name": "focused-in-the-dark",
     "displayName": "Focused in the dark",
-    "description": "",
+    "description": "Dark theme for focused coding. Based on Ayu dark.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.109.0"
