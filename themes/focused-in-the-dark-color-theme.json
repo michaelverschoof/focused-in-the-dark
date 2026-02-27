@@ -2,6 +2,33 @@
     "$schema": "vscode://schemas/color-theme",
     "name": "Focused in the dark",
     "type": "dark",
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+		"class": "#59c2ff",
+		"class.defaultLibrary": "#39bae6",
+		"enum": "#59c2ff",
+		"enum.defaultLibrary": "#39bae6",
+		"interface": "#39bae6",
+		"interface.defaultLibrary": {
+			"foreground": "#39bae6",
+			"italic": true
+		},
+		"struct": "#59c2ff",
+		"struct.defaultLibrary": "#39bae6",
+		"type": "#59c2ff",
+		"type.defaultLibrary": "#39bae6",
+		"enumMember": "#95e6cb",
+		"event": "#f29668",
+		"function": "#ffb454",
+		"method": "#ffb454",
+		"macro": "#e6c08a",
+		"comment": "#5a6673",
+		"string": "#aad94c",
+		"keyword": "#ff8f40",
+		"number": "#d2a6ff",
+		"regexp": "#95e6cb",
+		"operator": "#f29668"
+	},
     "colors": {
         "actionBar.toggledBackground": "#47526640",
         "activityBar.activeBorder": "#d400ff",
@@ -88,7 +115,7 @@
         "editorOverviewRuler.bracketMatchForeground": "#5a6378b3",
         "editorOverviewRuler.deletedForeground": "#f26d78",
         "editorOverviewRuler.errorForeground": "#d95757",
-        "editorOverviewRuler.findMatchForeground": "#4c4126",
+        "editorOverviewRuler.findMatchForeground": "#4c4126aa",
         "editorOverviewRuler.modifiedForeground": "#73b8ff",
         "editorOverviewRuler.warningForeground": "#e6b450",
         "editorOverviewRuler.wordHighlightForeground": "#73b8ff66",
@@ -679,22 +706,9 @@
             }
         },
         {
-            "scope": ["markup.raw"],
-            "settings": {
-                "background": "#BFBDB605"
-            }
-        },
-        {
-            "scope": ["markup.raw.inline"],
-            "settings": {
-                "background": "#BFBDB60F"
-            }
-        },
-        {
             "scope": ["meta.separator"],
             "settings": {
                 "foreground": "#5A6673",
-                "background": "#BFBDB60F",
                 "fontStyle": "bold"
             }
         },
@@ -745,7 +759,6 @@
             "scope": ["markup.table"],
             "settings": {
                 "foreground": "#39BAE6",
-                "background": "#BFBDB60F"
             }
         },
         {
@@ -758,14 +771,12 @@
             "scope": ["text.html.markdown meta.dummy.line-break"],
             "settings": {
                 "foreground": "#5A6673",
-                "background": "#5A6673"
             }
         },
         {
             "scope": ["punctuation.definition.markdown"],
             "settings": {
                 "foreground": "#5A6673",
-                "background": "#BFBDB6"
             }
         },
         {

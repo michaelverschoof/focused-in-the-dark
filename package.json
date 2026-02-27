@@ -1,10 +1,12 @@
 {
+    "id": "focused-in-the-dark",
     "name": "focused-in-the-dark",
     "displayName": "Focused in the dark",
     "description": "Dark theme for focused coding. Based on Ayu dark.",
     "version": "0.0.1",
+    "publisher": "michaelv",
     "engines": {
-        "vscode": "^1.109.0"
+        "vscode": "*"
     },
     "categories": [
         "Themes"
@@ -12,8 +14,9 @@
     "contributes": {
         "themes": [
             {
+                "id": "focused-in-the-dark",
                 "label": "Focused in the dark",
-                "uiTheme": "hc-black",
+                "uiTheme": "vs-dark",
                 "path": "./themes/focused-in-the-dark-color-theme.json"
             }
         ]

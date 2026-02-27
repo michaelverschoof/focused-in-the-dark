@@ -1,0 +1,307 @@
+{
+    "accessibility.verbosity.terminal": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Fira Code iScript, monospace",
+    "editor.fontVariations": false,
+    "editor.hover.delay": 1000,
+    "editor.hover.hidingDelay": 200,
+    "editor.insertSpaces": true,
+    "editor.lineHeight": 24,
+    "editor.linkedEditing": true,
+    "editor.rulers": [100],
+    "editor.scrollBeyondLastLine": false,
+    "editor.tabSize": 4,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "class": "#59c2ff",
+            "class.defaultLibrary": "#39bae6",
+            "enum": "#59c2ff",
+            "enum.defaultLibrary": "#39bae6",
+            "interface": "#fff",
+            // "interface.defaultLibrary": {
+            //     "foreground": "#39bae6",
+            //     "italic": true
+            // },
+            "struct": "#59c2ff",
+            "struct.defaultLibrary": "#39bae6",
+            "type": "#fff",
+            "type.defaultLibrary": "#ccc",
+            "enumMember": "#95e6cb",
+            "event": "#f29668",
+            "function": "#00ff00",
+            "method": "#00cc00",
+            "macro": "#e6c08a",
+            "comment": "#fff",
+            "string": "#5555cc",
+            "stringLiteral": "#5555cc",
+            "keyword": "#ff8f40",
+            "number": "#ff0000",
+            "variable.local": "#ccc",
+            "regexp": "#95e6cb",
+            // "operator": "#ff0000",
+            "parameter": "#fff",
+            "property": "#ccc",
+
+            "newOperator": "#ccc",
+        },
+    },
+    "editor.tokenColorCustomizations": {
+        // "textMateRules": [
+        //     {
+		// 	"name": "Keyword",
+		// 	"scope": [
+		// 		"keyword"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#999"
+		// 	}
+		// },
+        // {
+		// 	"name": "Operators",
+		// 	"scope": [
+		// 		"keyword.operator"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#999"
+		// 	}
+		// },
+        // {
+		// 	"name": "Separators like ; or ,",
+		// 	"scope": [
+		// 		"punctuation.separator",
+		// 		"punctuation.terminator"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#999"
+		// 	}
+		// },
+        // {
+		// 	"name": "Punctuation accessor",
+		// 	"scope": [
+		// 		"punctuation.accessor"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#999"
+		// 	}
+		// },
+        // {
+		// 	"name": "Function declaration",
+		// 	"scope": [
+		// 		"storage.type.function"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#999"
+		// 	}
+		// },
+        // {
+		// 	"name": "Function arrow",
+		// 	"scope": [
+		// 		"storage.type.function.arrow"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#999"
+		// 	}
+		// },
+        // {
+		// 	"name": "Function name",
+		// 	"scope": [
+		// 		"entity.name.function"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#ff0000"
+		// 	}
+		// },
+
+
+        //     {
+        //         "name": "String",
+        //         "scope": [
+        //             "string",
+        //             "constant.other.symbol"
+        //         ],
+        //         "settings": {
+        //             "foreground": "#aad94c"
+        //         }
+        //     },
+        //     {
+        //         "name": "JavaScript/TypeScript interpolation punctuation",
+        //         "scope": [
+        //             "punctuation.definition.template-expression"
+        //         ],
+        //         "settings": {
+        //             "foreground": "#999"
+        //         }
+        //     },
+        // ]
+    },
+
+    "explorer.autoReveal": true,
+    "explorer.confirmDelete": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.vue": "${capture}.ts, ${capture}.spec.vue, ${capture}.test.vue, ${capture}.spec.ts, ${capture}.test.ts, ${capture}.test.browser.ts, ${capture}.spec.js, ${capture}.test.js, ${capture}.test.browser.js, ${capture}.nuxt.spec.ts, ${capture}.nuxt.test.ts, ${capture}.story.vue, ${capture}.story.ts, ${capture}.story.js, ${capture}.stories.vue, ${capture}.stories.ts, ${capture}.stories.js",
+        "*.ts": "${capture}.js, ${capture}.spec.ts, ${capture}.test.ts, ${capture}.nuxt.spec.ts, ${capture}.nuxt.test.ts",
+        "*.js": "${capture}.spec.js, ${capture}.test.js, ${capture}.nuxt.spec.js, ${capture}.nuxt.test.js"
+    },
+
+    "git.confirmSync": false,
+    "git.inputValidationSubjectLength": null,
+    "git.replaceTagsWhenPull": true,
+
+    "html.autoClosingTags": true,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "css.lint.unknownAtRules": "ignore",
+    "less.lint.unknownAtRules": "ignore",
+    "scss.lint.unknownAtRules": "ignore",
+    "vue.autoInsert.dotValue": true,
+    "vue.suggest.componentNameCasing": "preferKebabCase",
+
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
+
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+
+    "playwright.reuseBrowser": true,
+    "playwright.showTrace": false,
+    "playwright.env": {
+        "VITE_TEST_MODE": true
+    },
+
+    "terminal.integrated.defaultProfile.linux": "local zsh",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        },
+        "local zsh": {
+            "path": "/usr/bin/zsh"
+        }
+    },
+
+    "settingsSync.ignoredExtensions": [],
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+
+    "material-icon-theme.activeIconPack": "vue",
+
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.hover.delay": 1000,
+    "workbench.panel.defaultLocation": "right",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 16,
+
+    "workbench.colorCustomizations": {
+
+        "foreground": "#5a6a7a",
+
+        "focusBorder": "#00ccff",
+        "textLink.foreground": "#cadaea",
+        "textLink.activeForeground": "#cadaea",
+
+        "activityBar.foreground": "#cadaea",
+        "activityBar.activeBorder": "#d400ff",
+        // "activityBar.inactiveForeground": "#5a6a7a",
+        "activityBarBadge.background": "#00ccff",
+        "activityBarBadge.foreground": "#000",
+
+        "list.activeSelectionForeground": "#cadaea",
+        "list.inactiveSelectionForeground": "#cadaea",
+        "list.hoverBackground": "#00000000",
+        "list.hoverForeground": "#aabaca",
+
+        "editorLineNumber.activeForeground": "#cadaea",
+
+        "tab.activeBorder": "#d400ff",
+        "tab.activeForeground": "#cadaea",
+        "tab.hoverForeground": "#aabaca",
+
+        "panelTitle.activeBorder": "#d400ff",
+
+        "titleBar.activeForeground": "#5a6a7a",
+
+        "menubar.selectionForeground": "#aabaca",
+        "menubar.selectionBackground": "#00000000",
+        "menu.foreground": "#aabaca",
+        "menu.selectionForeground": "#cadaea",
+        "menu.selectionBorder": "#00000000",
+        "menu.separatorBackground": "#00000000",
+        "menu.background": "#181a22",
+
+        "statusBarItem.hoverBackground": "#00000000",
+        "statusBarItem.hoverForeground": "#aabaca",
+
+        "editorWidget.foreground": "#cccccc",
+        "editorWidget.resizeBorder": "#00ccff99",
+        "editorWidget.background": "#181a22",
+
+        "editor.foreground": "#bfbdb6",
+
+        "button.background": "#7a0092",
+        "button.foreground": "#fff",
+        "button.hoverBackground": "#9500b4",
+        "button.secondaryForeground": "#fff",
+        "button.secondaryBackground": "#3a3d41",
+        "button.secondaryHoverBackground": "#45494e",
+
+        "inputOption.activeBorder": "#00000000",
+        "inputOption.activeForeground": "#cadaea",
+        "inputOption.activeBackground": "#ffffff22",
+    },
+
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vitest.applyDiagnostic": false
+}
